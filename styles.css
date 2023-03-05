@@ -1,0 +1,554 @@
+html{
+  height: 100%;
+}
+
+html, body {
+    background-color: #F8F8F8;
+    font-family: inter;
+  }
+
+
+  #navbar {
+    margin: 0 auto;
+    padding: 0;
+    width: 1206.12px;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-weight: regular;
+    color: #333333;
+    word-spacing: 100px;
+    padding: 10px;
+  }
+  
+  
+  #navbar li {
+    display: inline;
+    list-style-type: none;
+
+    
+  }
+  
+  #navbuttons {
+  position: absolute;
+  width: 712.6px;
+  height: 25px;
+  left: 580px;
+  top: 75px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333333;
+  }
+
+  #navbttns{
+    width: 100px;
+  }
+  
+  
+  li a:hover {
+    color: #AA1919;
+    font-weight: 700;
+    width: 300px;
+  }
+  
+  #navlogo {
+  position: absolute;
+  width: 142.86px;
+  height: 75px;
+  left: 0px;
+  top: 50px;
+  }
+  
+  #characterprofile {
+    position: absolute;
+    left: 50%;
+    top: 500px;
+    transform: translate(-50%, -50%);
+  }
+  
+  #charactercontainer { 
+  width: 1205.93px;
+  height: 602.54px;
+  top: 277.34px;
+  background: #AA1919;
+  border-radius: 354px 3000px 54px 20px;
+
+  
+  }
+
+  .charactercontent {
+    position: relative;
+    z-index: 0;
+  }
+  
+  #CharName {
+  font-family: inter;
+  font-weight: 900;
+    font-size: 90px;
+    color: white;
+    position: absolute;
+      left: 87px;
+  top: -10px;
+    
+  }
+  
+  #character {
+    position: absolute;
+  width: 534.7px;
+  height: 726.79px;
+  left: 603px;
+    top: -30px
+    
+  }
+  
+  #overview {
+    position: absolute;
+    width: 500px;
+    top: 265px;
+  }
+  
+  h2 {
+    position: absolute;
+  left: 88px;
+  font-size: 20px;
+  line-height: 40px;
+  color: #FFFFFF;
+  }
+  
+.overview_desc {
+    position: absolute;
+  width: 550.46px;
+  left: 88px;
+  top: 70px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 40px;
+  color: #FFFFFF;
+  }
+  
+  h3 {
+  font-style: normal;
+  font-size: 40px;
+  color: black;
+  }
+  
+  #archetype {
+    position: absolute;
+    top: 150px;
+    
+    
+  }
+  
+  #Arch1 {
+  position: absolute;
+  width: 82.26px;
+  height: 34.04px;
+  text-align: right;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.75);
+  
+  }
+  
+  #Arch2 {
+  position: absolute;
+  width: 82.26px;
+  height: 34.04px;
+  left: 147px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.75);
+  
+  }
+  
+  #Arch3 {
+  position: absolute;
+  width: 114.64px;
+  height: 34.04px;
+  left: 262px;
+  white-space: nowrap;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.75);
+  }
+  
+  #difftier {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 40px;
+    position: absolute;
+    top: 200px;
+  text-align: left;
+  
+  color: #FFFFFF;
+  }
+  
+  #difficulty { 
+    position: absolute;
+  width: 98.89px;
+  height: 34.04px;
+  left: 88px;
+  top: 10px;
+    
+  }
+  
+  #tier {
+    position: absolute;
+  width: 42.88px;
+  height: 34.04px;
+  left: 400px;
+  top: 10px;
+  
+  }
+  
+  #tierrating {
+    position: absolute;
+  width: 14.88px;
+  height: 34.04px;
+  left: 470px;
+  top: 10px;
+  }
+  
+  #stars {
+    position: absolute;
+  left: 230px;
+  top: 35px;
+  }
+
+  .stroketext {
+position: absolute;
+scale: 0.98;
+top: 140px;
+z-index: -1;
+  }
+  
+  #character_select {
+    position: absolute;
+    top: 630px;
+  }
+  
+  #arrow {
+    position: absolute;
+    top: 37px;
+  }
+  
+  #Arrow1 {
+    position: absolute;
+  width: 12.2px;
+  height: 0px;
+  left: .67px;
+  top: 0px;
+  
+  border: 3px solid #000000;
+  transform: matrix(-0.71, 0.7, -0.72, -0.71, 0, 0);
+  }
+  
+  #Arrow2 {
+    position: absolute;
+  width: 12.2px;
+  height: 0px;
+  left: 1px;
+  top: 9px;
+  
+  border: 3px solid #000000;
+  transform: matrix(0.71, 0.7, -0.72, 0.71, 0, 0);
+  }
+  
+  h5 {
+    position: absolute;
+  width: 336.92px;
+  left: 30px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  
+  color: #000000;
+  }
+  
+  
+
+.charnavbar {
+  position: absolute;
+  top: 100px;
+  display: inline;
+}
+
+#charnavbttn1 {
+  position: absolute;
+
+}
+
+#charnavbttn2 {
+  position: absolute;
+  left: 245px;
+}
+
+#charnavbttn3 {
+  position: absolute;
+  left: 489px;
+}
+
+#charnavbttn4 {
+  position: absolute;
+  left: 734px;
+
+}
+
+a:hover .bttncntnr, a:active .bttncntn {
+  fill: #AA1919;
+  stroke: #AA1919;
+}
+
+a:hover .bttntxt, a:active .bttntxt {
+  fill: white;
+}
+
+
+.page_title {
+  position: absolute;
+  top: 250px;
+  height: 165.95px;
+  width: 1206px;
+}
+
+.title_bar {
+position: absolute;
+width: 1206px;
+top: -30px;
+font-style: normal;
+font-weight: 900;
+font-size: 60px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.section2 {
+  position: absolute;
+  top: 500px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.comboacc1 {
+  flex-basis: 25%;
+  margin-bottom: 40px;
+}
+
+.comboacc2 {
+  flex-basis: 25%;
+  margin-bottom: 40px;
+}
+
+.comboacc3 {
+  flex-basis: 25%;
+  margin-bottom: 80px;
+}
+
+
+.topcontainerhandle {
+  position: relative;
+  top: 5px;
+}
+
+.topcontainerhandle path {
+  fill: #1E1E1E;
+}
+
+a:hover .topcontainerhandle path {
+  cursor: pointer;
+  fill: #AA1919;
+}
+
+.combocontents1 {
+  position: relative;
+  width: 1056px;
+  background: #1E1E1E;
+  padding: 0px 75px 0px 75px;
+  margin: 0;
+}
+
+a:hover .combocontents1 {
+  background: #AA1919;
+
+}
+
+a:active .combocontents1 {
+  background: #AA1919;
+}
+
+
+.label {
+  position: relative;
+  display: inline;
+  padding: none;
+  font-weight: 900;
+  color: black;
+}
+
+button {
+  background: none;
+  position: relative;
+  height: 0px;
+  border: none;
+  cursor: pointer;
+  width: 1056px;
+}
+
+.container_label {
+  position: relative;
+  top: -25px;
+  text-align: left;
+  left: 0px;
+  color: white;
+}
+
+.container_arrow1 {
+  position: absolute;
+  top: 30px;
+  left: 981px;
+}
+
+.panel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  left: 75px;
+  height: 830px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  
+}
+
+.cmbodmg {
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+.cmbodmgval {
+  position: relative;
+  top: -55px;
+  left: 300px;
+}
+
+.combodiff {
+  position: relative;
+  top: -57px;
+  left: 300px;
+}
+
+.diffstars {
+  position: relative;
+  top: -105px;
+  left: 420px;
+}
+
+.launchers {
+  position: relative;
+  top: -150px;
+  left: 0px;
+}
+
+li .launchlist {
+  list-style-type: circle;
+
+}
+
+.launchlist {
+  column-count: 2;
+  column-gap: 60px;
+  position: relative;
+  top: -160px;
+  left: 0px;
+  color: white;
+}
+
+.input {
+  position: relative;
+  top: -170px;
+  left: 0px;
+}
+
+.botcontainerhandle {
+  position: relative;
+  top: -1px;
+}
+
+.botcontainerhandle path {
+  fill: #1E1E1E;
+}
+
+a:hover .botcontainerhandle path {
+  cursor: pointer;
+  fill: #AA1919;
+}
+
+.combo1input {
+  position: relative;
+  top: -190px;
+
+}
+
+.combogif {
+  mask-image:url(media/gifmask.png);
+  mask-repeat: no-repeat;
+  mask-position: center;
+  position: relative;
+  top: -170px;
+}
+
+footer{
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  position: relative;
+  top: 100px;
+  left: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 300px;
+  
+}
+
+.footerlogo {
+  height: 150px;
+  width: 318.49px;
+  position: relative;
+  top: 40px;
+  left: -100px;
+}
+
+.footer h2 {
+  color: #3E3E3E;
+  position: relative;
+  top: 0px;
+}
+
+
+.footer li {
+  list-style-type: none;
+  padding: 10px;
+  position: relative;
+  width: 200px;
+  left: 79px;
+  top: -20px;
+  text-align: left;
+}
+
+
+
+.address:hover li:hover{
+color: #AA1919;
+font-weight: 900;
+}
